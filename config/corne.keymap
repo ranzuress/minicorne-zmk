@@ -146,19 +146,19 @@
 
         rubas_base_layer {
             bindings = <
-&none  &mt EXCLAMATION Q  &mt AT_SIGN W       &mt HASH D      &mt DOLLAR R    &mt PERCENT F                 &mt AMPERSAND J               &mt C_VOLUME_DOWN Y  &mt C_VOLUME_UP U   &mt C_NEXT P         &mt MINUS QUESTION  &none
-&none  &mt LEFT_SHIFT A   &mt LEFT_CONTROL S  &mt LEFT_ALT E  &mt LEFT_GUI T  &mt END G                     &mt HOME H                    &mt RIGHT_GUI I      &mt RIGHT_ALT N     &mt RIGHT_CONTROL L  &mt RIGHT_SHIFT O   &none
-&none  &lt 3 Z            &kp X               &kp C           &kp V           &mt LEFT_PARENTHESIS COMMA    &mt RIGHT_PARENTHESIS PERIOD  &mt PAGE_UP B        &mt C_PLAY_PAUSE M  &mt PAGE_DOWN K      &lt 3 SEMICOLON     &none
+&none  &mt EXCLAMATION Q  &mt AT_SIGN W       &mt HASH D      &mt DOLLAR R    &mt PERCENT F                 &mt AMPERSAND J               &mt C_VOLUME_DOWN Y  &mt C_VOLUME_UP U   &mt C_NEXT P         &mt MINUS QUESTION              &none
+&none  &mt LEFT_SHIFT A   &mt LEFT_CONTROL S  &mt LEFT_ALT E  &mt LEFT_GUI T  &mt LG(LS(RIGHT)) G           &mt RS(RG(LEFT_ARROW)) H      &mt RIGHT_GUI I      &mt RIGHT_ALT N     &mt RIGHT_CONTROL L  &mt RIGHT_SHIFT O               &none
+&none  &lt 3 Z            &kp X               &kp C           &kp V           &mt LEFT_PARENTHESIS COMMA    &mt RIGHT_PARENTHESIS PERIOD  &mt PAGE_UP B        &mt C_PLAY_PAUSE M  &mt PAGE_DOWN K      &mt RG(LEFT_BRACKET) SEMICOLON  &none
                                               &to 4           &lt 1 SPACE     &lt 2 TAB                     &lt 2 ENTER                   &lt 1 BACKSPACE      &lt 3 DEL
             >;
         };
 
         navigation {
             bindings = <
-&none  &none           &none  &kp PLUS  &kp EQUAL  &none       &kp GRAVE  &kp HOME     &kp UP_ARROW      &kp END        &none  &none
-&none  &kp LBRC        &none  &none     &kp RBRC   &kp PIPE    &kp ESC    &kp LEFT     &kp DOWN_ARROW    &kp RIGHT      &none  &none
-&none  &cm LSHFT LBKT  &none  &none     &kp RBKT   &none       &kp TILDE  &kp PAGE_UP  &kp C_PLAY_PAUSE  &kp PAGE_DOWN  &none  &none
-                              &trans    &trans     &trans      &trans     &trans       &trans
+&none  &none  &none  &none   &none   &none     &kp GRAVE  &kp HOME     &kp UP_ARROW      &kp END        &none  &none
+&none  &none  &none  &none   &none   &none     &kp ESC    &kp LEFT     &kp DOWN_ARROW    &kp RIGHT      &none  &none
+&none  &none  &none  &none   &none   &none     &kp TILDE  &kp PAGE_UP  &kp C_PLAY_PAUSE  &kp PAGE_DOWN  &none  &none
+                     &trans  &trans  &trans    &trans     &trans       &trans
             >;
         };
 
